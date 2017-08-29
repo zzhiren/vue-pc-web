@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'FZLTCXHJW--GB1-0';
+  src: url('../fonts/FZLTCXHJW--GB1-0.woff') format('woff'),
+       url('../fonts/FZLTCXHJW--GB1-0.ttf') format('truetype'),
+       url('../fonts/FZLTCXHJW--GB1-0.svg#FZLTCXHJW--GB1-0') format('svg');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '方正兰亭超细黑合并体';
+  src: url('../fonts/方正兰亭超细黑合并体.eot');
+  src: url('../fonts/方正兰亭超细黑合并体.woff2') format('woff2'),
+       url('../fonts/方正兰亭超细黑合并体.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

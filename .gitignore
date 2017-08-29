@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+PC官网2017811.zip
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
