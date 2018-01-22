@@ -5,13 +5,14 @@ import App from './App'
 import VueRouter from 'vue-router'
 import routes from './router/index.js'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-
+import VueVideoPlayer from 'vue-video-player'
 // import router from './router'
-
+import 'video.js/dist/video-js.css'
 Vue.config.productionTip = false
 
 Vue.use(VueRouter)
 Vue.use(VueAwesomeSwiper)
+Vue.use(VueVideoPlayer)
 
 
 

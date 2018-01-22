@@ -6,37 +6,9 @@
         <li >
           <router-link to='home' class="logo" >首页</router-link>
         </li>
-        <!--<li class="product" @mouseenter="showList" @mouseleave="closeLsit">产品-->
         <li class="product" v-on:mouseover="changeShow()" >产品
-          <!--<div class="product_list" v-if="state" v-bind:class="{a: state, b: state_b}">
-                            <span v-bind:class="{span_a: state, span_b: state_b}"></span>
-                            <div>
-                              <ul>
-                                <router-link to='homeschool'>家校通</router-link>
-                              </ul>
-                            </div>
-                          </div>-->
-          <!-- <div class="product_list">
-                    <span></span>
-                    <ul class="list">
-                      <li>
-                        <router-link class="list" to='SmartBracelet' tag="a">手环</router-link>
-                      </li>
-                      <li>
-                        <router-link class="list" to='HomeSchool' tag="a">家校通</router-link>
-                      </li>
-                      <li>
-                        <router-link class="list" to='ClassCard' tag="a">电子班牌</router-link>
-                      </li>
-                    </ul>
-                  </div> -->
   
         </li>
-         <!-- <li class="x" v-on:mouseover="resetShow()">商务合作
-          <div class="y">
-  
-          </div>
-        </li>  -->
         <li >
           <router-link to='aboutus' class="logo">关于我们</router-link>
         </li>
@@ -44,7 +16,7 @@
           <a target="_blank" class="a" href="https://www.lagou.com/gongsi/150659.html">加入我们</a>
         </li>
         <li>
-          <a class="a" href="http://manager.zcxiaolian.com/#/login">后台登录</a>
+          <a target="_blank" class="a" href="http://manager.zcxiaolian.com/#/login">后台登录</a>
         </li>
       </ul>
     </div>
@@ -65,9 +37,6 @@
           </router-link>
           <router-link class="product_name" tag="div" to="smartbracelet">
             <p>
-              <!-- <object data="banner_band.svg" type="image/svg+xml"></object> -->
-              <!-- <iframe src="../../static/banner_band.svg"></iframe> -->
-
                <img class="banner_band" src="../../static/banner_band.svg" alt=""> 
             </p>
             <p class="banner_band_p">&nbsp;&nbsp;手环</p>
@@ -77,7 +46,6 @@
     </transition>
   
   </div>
-  <!-- </div> -->
 </template>
 
 <script>

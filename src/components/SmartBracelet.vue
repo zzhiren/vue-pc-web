@@ -1,6 +1,9 @@
 <template>
     <div id="smartbracelet">
-        <SBRollingAds></SBRollingAds>
+        <!-- <SBRollingAds></SBRollingAds> -->
+        <div class="banner">
+            <img v-bind:src="banner" alt="">
+        </div>
         <div class="title_img">
             <img class="" src="../static/smartbracelet_title.png" alt="">
             <img class="title_bg" src="../static/suspension_card.png" alt="">
@@ -39,18 +42,20 @@
             <!-- <p class="for_you_b"><img src="../static/protect_you.png" alt=""></p> -->
             <img src="../static/for_you_img.png" alt="" class="for_you_img">
             <div class="for_you_div">
-                <p class="for_you_p">实时监测记录，科学规划运动量，管理运动状态。自动睡眠识别，同步追踪</p>
-                <p class="for_you_p">睡眠时间，分析睡眠质量。精雕细琢，食品级亲肤材质，长久佩戴亦有舒适的体验</p>
+                <p class="for_you_p">实时监测记录，科学的规划运动量并能够管理日常运动状态，自动进行睡眠识别，同步追踪睡眠时间，分析睡眠质量。</p>
+                <p class="for_you_p">食品级亲肤硅胶材质，精雕细琢的设计，长久佩戴亦有舒适的体验。</p>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-    import SBRollingAds from './common/SBRollingAds.vue'
+    // import SBRollingAds from './common/SBRollingAds.vue'
+    import banner from "../static/sb_bg.png";
     export default {
         data() {
             return {
+                banner: banner,
                 banners: [
                     { index: '0', imgUrl: 'http://i3.mifile.cn/a4/bc62a28f-de64-4eee-853b-36772a97f67e' },
                     { index: '1', imgUrl: 'http://i3.mifile.cn/a4/ba4939c9-fc0a-4916-bddc-726fa00f7e9b' },
@@ -65,7 +70,7 @@
             document.body.scrollTop = 0;
         },
         components: {
-            'SBRollingAds': SBRollingAds
+            // 'SBRollingAds': SBRollingAds
         }
     }
 </script>
@@ -77,6 +82,12 @@
         position: relative;
         margin: 0 auto;
     }
+    .banner {
+  width: 100%;
+}
+.banner > img {
+  width: 100%;
+}
     .foryou {
         width: 1100px;
         margin: 0 auto;
@@ -245,7 +256,8 @@
         color: #858585;
         text-align: left;
         line-height: 24px;
-        margin-bottom: 15px;
+        /* margin-bottom: 15px; */
         margin-left: 60px;
+        width: 504px;
     }
 </style>
