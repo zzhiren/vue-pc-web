@@ -30,16 +30,18 @@
             <div class="idea">
               <img src="../static/idea.png" alt="">
             </div>
+            <div> 
             <img class="dev_history" src="../static/dev_history.png" alt="">
+            </div>
             <div class="partener">
                 <p class="partener_p"><img src="../static/our_partener.png" alt=""></p>
                 <div class="partener_list">
                     <div class="partener_name">
                         <img src="../static/soyea.png" alt="">
                     </div>
-                    <div class="partener_name">
+                    <!-- <div class="partener_name">
                         <img src="../static/enjoyor.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="partener_name">
                         <img src="../static/ruijia.png" alt="">
                     </div>
@@ -101,6 +103,7 @@ export default {
   max-width: 1980px;
   position: relative;
   margin: 0 auto;
+  height: 100%;
 }
 .swipers-title {
   font-size: 40px;
@@ -129,7 +132,7 @@ export default {
 }
 .content {
   width: 100%;
-  height: 1500px;
+  /* height: 1500px; */
   max-width: 1980px;
   overflow: hidden;
   position: relative;
@@ -225,7 +228,7 @@ export default {
 }
 .partener_list {
   display: flex;
-  width: 1000px;
+  width: 600px;
   margin: 0 auto;
   margin-bottom: 180px;
 }

@@ -19,8 +19,8 @@
                 <p class="product_p">一款由学生佩戴的电子智能手环，集蓝牙运动计步器、电子门禁、智能定位、健康检测、信息采集于一体的多功能手环。</p>
             </div>
             <div class="product">
-                <img class="product_title" src="../static/home_smart_watch.png" alt="">
-                <p class="product_p">触控显示，基于智慧云平台的应用，结合电子班牌采集学生进出校门数据和运动数据，可拨打亲情号，并协作建立健康档案的学生智能手表.</p>
+                <img class="product_title" src="../static/smart_card.png" alt="">
+                <p class="product_p">在校园一卡通的基础上添加了更多的功能，是学生的电子身份标识。</p>
             </div>
         </div>
         <div class="video">
@@ -85,17 +85,16 @@
         </div>
         <div class="homeschool">
             <div class="homeschool_introduce">
-                <p class="cd_title" ><img src="../static/smart_watch.png" alt=""></p>
-                <p class="hs_p">触控显示，基于智慧云平台的应用，结合电子班牌采集学生进出校门数据和运动数据，可拨打亲情电话，并协作建立健康档案的学生智能手表。</p>
+                <p class="cd_title" ><img src="../static/zhinengka_title.png" alt=""></p>
+                <p class="hs_p">将低功耗蓝牙SoC，纽扣电池封闭于标准的PVC卡片中，简化了智能手环中的运动（计步）、健康（心率）、显示等功能，但仍然可作为学生的电子身份标识，并能与现有一卡通系统对接。</p>
                 <img v-if="!state" v-on:click="go('homeschool')" class="hs_view_details" src="../static/view_details_b.png" v-on:mouseleave="changeShow()">
             </div>
-            <img class="shoubiao" src="../static/zhinengshoubiao.jpg" alt="">
+            <img class="shoubiao" src="../static/zhinengka.png" alt="">
         </div>
     </div>
 </template>
 
 <script>
-// import HomeRollingAds from "./common/HomeRollingAds.vue";
 import "../css/custom-theme.css";
 import banner from "../static/home_rolls.png";
 
@@ -301,9 +300,9 @@ export default {
   position: absolute;
 }
 .shoubiao {
-  width: 500px;
+  width: 300px;
   position: absolute;
-  right: -30px;
+  right: 30px;
   /* bottom: -20px; */
   top: -60px;
 }

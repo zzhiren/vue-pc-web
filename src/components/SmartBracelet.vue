@@ -246,7 +246,7 @@
     
     .for_you_div {
         position: absolute;
-        bottom: -10px;
+        bottom: -70px;
         left: 25px;
         
     }

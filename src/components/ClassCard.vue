@@ -164,7 +164,6 @@
 </template>
 
 <script>
-import ClassCardRollingAds from "./common/ClassCardRollingAds.vue";
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 import banner from "../static/classcard_rolls.png";
 
