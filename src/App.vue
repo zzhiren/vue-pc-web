@@ -43,7 +43,7 @@ export default {
   opacity: 0;
 }
 .vjs-tech {
-  width: 800px !important;
+  /* width: 800px !important; */
   position: relative !important;
   /* height: 618.75px!important; */
 }
