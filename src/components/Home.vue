@@ -37,7 +37,6 @@
                             @timeupdate="onPlayerTimeupdate($event)"
                             @canplay="onPlayerCanplay($event)"
                             @canplaythrough="onPlayerCanplaythrough($event)"
-                            @ready="playerReadied"
                             @statechanged="playerStateChanged($event)">
             </video-player>
          </div>

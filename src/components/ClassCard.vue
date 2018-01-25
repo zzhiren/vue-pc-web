@@ -213,7 +213,6 @@ export default {
     document.body.scrollTop = 0;
   },
   components: {
-    ClassCardRollingAds: ClassCardRollingAds,
     swiper,
     swiperSlide
   }

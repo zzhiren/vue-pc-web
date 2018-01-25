@@ -44,7 +44,7 @@
             <p class="svg_p">
                <img class="banner_band" src="../../static/banner_band.svg" alt=""> 
             </p>
-            <p class="banner_band_p">手环+智能卡</p>
+            <p class="banner_band_p"> 手环+智能卡</p>
           </router-link>
         </div>
       </div>
@@ -123,6 +123,7 @@ export default {
 .banner_band_p{
   text-align: center;
   margin-top: 80px!important;
+  padding-left: 10px;
 }
 .product_content {
   width: 400px;
