@@ -13,6 +13,12 @@
           产品
         </li>
         <li >
+          <router-link to='xcourse' class="a" tag="span">"臻"排课</router-link>
+        </li>
+        <li >
+          <router-link to='servicecenter' class="a" tag="span">教育数据服务中心</router-link>
+        </li>
+        <li >
           <router-link to='aboutus' class="a" tag="span">关于我们</router-link>
         </li>
         <li class="m_right">
@@ -131,16 +137,13 @@ export default {
   flex-direction: row;
   margin: 0 auto;
   text-align: right;
-  /* background: blue; */
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 .product_name {
-  /* margin-right: 100px; */
   transition: all 0.5s;
   width: 100px;
   cursor: pointer;
-  /* background: red; */
   margin: -5px auto;
 }
 .product_name:hover p {
@@ -172,8 +175,6 @@ export default {
   position: fixed;
   text-align: center;
   z-index: 9999;
-  /* animation: topHeader_a_bg 0.5s alternate; */
-  /* -webkit-animation: topHeader_a_bg 0.5s alternate; */
   animation-fill-mode: forwards;
 }
 .border {
@@ -283,7 +284,7 @@ export default {
 }
 
 .content {
-  width: 1100px;
+  width: 1500px;
   margin: 0 auto;
 }
 </style>

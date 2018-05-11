@@ -16,7 +16,7 @@
                 </ul>
                 <ul class="ul_a">
                     <li class="li_a">联系我们</li>
-                    <li class="li_b">地址: 杭州市滨江区火炬大道581号三维大厦C座504</li>
+                    <li class="li_b">地址: 浙江省杭州市西湖数园软件园11幢1楼杭州臻财科技</li>
                     <li class="li_b">电话: 0571-86811981</li>
                     <li class="li_b">邮箱: xl@zcxiaolian.com</li>
                 </ul>

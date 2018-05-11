@@ -34,6 +34,16 @@ const aboutus = function aboutus(r) {
     return r(require('../components/AboutUS'));
   }, 'aboutus');
 }
+const xcourse = function aboutus(r) {
+  return require.ensure([], function () {
+    return r(require('../components/XCourse'));
+  }, 'xcourse');
+}
+const servicecenter = function aboutus(r) {
+  return require.ensure([], function () {
+    return r(require('../components/ServiceCenter'));
+  }, 'servicecenter');
+}
 
 export default [
   {
@@ -63,5 +73,13 @@ export default [
   {
     path: '/aboutus',
     component: aboutus
+  },
+  {
+    path: '/xcourse',
+    component: xcourse
+  },
+  {
+    path: '/servicecenter',
+    component: servicecenter
   }
 ]
